@@ -2,31 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HTML Basics for Beginners</title>
+  <title>What is HTML?</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="button-area">
-  <button onclick="goToCSS()">What is CSS?</button>
-  <button onclick="goToJS()">What is JavaScript (JS)?</button>
-</div>
+  <nav class="button-area">
+    <button onclick="goToHTML()">HTML</button>
+    <button onclick="goToCSS()">CSS</button>
+    <button onclick="goToJS()">JavaScript</button>
+  </nav>
 
+  <main class="card">
+    <h1>What is HTML?</h1>
+    <p>HTML is the structure of a website. It tells the browser what things are.</p>
 
-  <h1>What is HTML?</h1>
-  <p>This page explains the basic building blocks of an HTML webpage.</p>
-
-  <ul>
-    <li><code>&lt;!DOCTYPE html&gt;</code> — Tells the browser this is HTML.</li>
-    <li><code>&lt;html&gt;</code> — Wraps the whole webpage.</li>
-    <li><code>&lt;head&gt;</code> — Info about the page.</li>
-    <li><code>&lt;title&gt;</code> — Text on the browser tab.</li>
-    <li><code>&lt;body&gt;</code> — Everything you see.</li>
-    <li><code>&lt;h1&gt;</code> — Big heading.</li>
-    <li><code>&lt;p&gt;</code> — Paragraph text.</li>
-    <li><code>&lt;ul&gt; &lt;li&gt;</code> — Bullet list.</li>
-  </ul>
+    <ul>
+      <li><code>&lt;h1&gt;</code> — Big title</li>
+      <li><code>&lt;p&gt;</code> — Paragraph</li>
+      <li><code>&lt;img&gt;</code> — Image</li>
+      <li><code>&lt;a&gt;</code> — Link</li>
+      <li><code>&lt;ul&gt;</code> — List</li>
+    </ul>
+  </main>
 
   <script src="script.js"></script>
 </body>
