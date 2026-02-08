@@ -1,50 +1,67 @@
+/* 🌙 Always Dark Mode Base */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9fafb;
-  color: #333;
+  background-color: #0f172a;
+  color: #e5e7eb;
   padding: 30px;
   line-height: 1.7;
 }
 
+/* Main title */
 h1 {
-  color: #1f2933;
+  color: #f9fafb;
+  margin-bottom: 10px;
 }
 
+/* Paragraph text */
 p {
+  color: #d1d5db;
   max-width: 700px;
 }
 
+/* Lists */
 ul {
   max-width: 800px;
   padding-left: 20px;
 }
 
 li {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+  color: #d1d5db;
 }
 
+/* Code blocks */
 code {
-  background-color: #eef1f5;
+  background-color: #1e293b;
+  color: #f9fafb;
   padding: 4px 8px;
   border-radius: 6px;
   font-family: Consolas, monospace;
+  font-size: 0.95em;
 }
 
+li code {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+/* Card-style layout */
 body > * {
-  background: white;
+  background-color: #020617;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   margin-bottom: 20px;
 }
 
+/* Buttons */
 .button-area {
   margin-bottom: 20px;
 }
 
 button {
-  background-color: #2563eb;
-  color: white;
+  background-color: #334155;
+  color: #f9fafb;
   border: none;
   padding: 10px 18px;
   border-radius: 8px;
@@ -54,36 +71,5 @@ button {
 }
 
 button:hover {
-  background-color: #1e40af;
-}
-/* 🌙 Dark Mode */
-body.dark {
-  background-color: #0f172a;
-  color: #e5e7eb;
-}
-
-body.dark h1 {
-  color: #f9fafb;
-}
-
-body.dark p,
-body.dark li {
-  color: #d1d5db;
-}
-
-body.dark code {
-  background-color: #1e293b;
-  color: #f9fafb;
-}
-
-body.dark body > * {
-  background-color: #020617;
-}
-
-body.dark button {
-  background-color: #334155;
-}
-
-body.dark button:hover {
   background-color: #475569;
 }
