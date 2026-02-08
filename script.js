@@ -9,3 +9,7 @@ function goToCSS() {
 function goToJS() {
   window.location.href = "js.html";
 }
+
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
