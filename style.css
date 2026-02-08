@@ -56,3 +56,34 @@ button {
 button:hover {
   background-color: #1e40af;
 }
+/* 🌙 Dark Mode */
+body.dark {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+body.dark h1 {
+  color: #f9fafb;
+}
+
+body.dark p,
+body.dark li {
+  color: #d1d5db;
+}
+
+body.dark code {
+  background-color: #1e293b;
+  color: #f9fafb;
+}
+
+body.dark body > * {
+  background-color: #020617;
+}
+
+body.dark button {
+  background-color: #334155;
+}
+
+body.dark button:hover {
+  background-color: #475569;
+}
